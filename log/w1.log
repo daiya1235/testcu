@@ -1,0 +1,577 @@
+2017.05.27 at 13:27:15 CST INFO  utils.BrowserDriver 55 open - open url: http://www.baidu.com
+2017.05.27 at 13:27:17 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 13:27:42 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: С�Կ��
+2017.05.27 at 13:28:04 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 13:30:52 CST INFO  utils.BrowserDriver 55 open - open url: http://www.baidu.com
+2017.05.27 at 13:30:54 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 13:31:19 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: С�Կ��
+2017.05.27 at 13:31:41 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 13:34:19 CST INFO  utils.BrowserDriver 55 open - open url: http://www.baidu.com
+2017.05.27 at 13:34:20 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 13:34:45 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: С�Կ��
+2017.05.27 at 13:35:08 CST ERROR utils.BrowserDriver 157 click - Xpath<//*[@id='classfy']/a[4]/span> not find!!
+com.webdriver.exception.StepException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='classfy']/a[4]/span"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//*[@id='classfy']/a[4]/span}
+Session ID: def2e4eb6c29b6fd19ab2370d03a8631
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir82056_11756, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 13:35:08 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 13:37:50 CST INFO  utils.BrowserDriver 55 open - open url: http://www.baidu.com
+2017.05.27 at 13:37:52 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 13:38:17 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: С�Կ��
+2017.05.27 at 13:38:18 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5b61b734-c10d-4c4d-b126-bed5658d9fea
+2017.05.27 at 13:38:40 CST ERROR utils.BrowserDriver 157 click - Xpath<//*[@id='classfy']/a[4]/span> not find!!
+com.webdriver.exception.StepException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='classfy']/a[4]/span"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//*[@id='classfy']/a[4]/span}
+Session ID: ff22666d6291678a0910e823a6f7de83
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir88220_14775, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 13:38:40 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 13:47:43 CST INFO  utils.BrowserDriver 55 open - open url: http://www.baidu.com
+2017.05.27 at 13:47:45 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 13:48:07 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: С�Կ��
+2017.05.27 at 13:48:09 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a8c0fa8f-ad78-45fb-8d62-ced4c47b1cd2
+2017.05.27 at 13:48:35 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 13:51:13 CST INFO  utils.BrowserDriver 55 open - open url: http://www.baidu.com
+2017.05.27 at 13:51:20 CST INFO  utils.BrowserDriver 55 open - open url: http://www.baidu.com
+2017.05.27 at 13:51:20 CST INFO  utils.BrowserDriver 55 open - open url: http://192.168.1.79/terminal/waiter_1
+2017.05.27 at 13:51:25 CST INFO  utils.BrowserDriver 251 type -     userNameX  =  1
+2017.05.27 at 13:51:25 CST INFO  utils.BrowserDriver 251 type -     passWordX  =  acewill
+2017.05.27 at 13:51:25 CST INFO  utils.BrowserDriver 148 click -     logIn_Ok
+2017.05.27 at 13:51:38 CST INFO  utils.BrowserDriver 55 open - open url: http://www.baidu.com
+2017.05.27 at 13:51:39 CST INFO  utils.BrowserDriver 55 open - open url: http://192.168.1.79/terminal/waiter_1
+2017.05.27 at 13:51:41 CST INFO  utils.BrowserDriver 251 type -     userNameX  =  1
+2017.05.27 at 13:51:41 CST INFO  utils.BrowserDriver 251 type -     passWordX  =  1
+2017.05.27 at 13:51:41 CST INFO  utils.BrowserDriver 148 click -     logIn_Ok
+2017.05.27 at 13:51:46 CST INFO  utils.BrowserDriver 55 open - open url: http://www.baidu.com
+2017.05.27 at 13:51:47 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 13:52:10 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.05.27 at 13:52:11 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-91210d56-f83b-465e-8537-21c4de7efaae
+2017.05.27 at 14:07:54 CST INFO  utils.BrowserDriver 55 open - open url: http://www.baidu.com
+2017.05.27 at 14:07:55 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 14:08:20 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.05.27 at 14:08:21 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c928b7a3-77ac-431d-a1d5-a8f1f3437c48
+2017.05.27 at 14:23:55 CST INFO  utils.BrowserDriver 55 open - open url: http://www.baidu.com
+2017.05.27 at 14:23:55 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 14:24:18 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.05.27 at 14:24:19 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-d11e61dd-170c-45e1-be9b-d09491336489
+2017.05.27 at 16:21:42 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 16:22:11 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.05.27 at 16:22:12 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-01f298a0-f513-404e-92e6-544f0e2ec76e
+2017.05.27 at 16:22:40 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 17:12:21 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 17:12:47 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.05.27 at 17:12:48 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-2f832fea-1dc6-49e3-8cd9-4d07206feec7
+2017.05.27 at 17:12:51 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:13:12 CST ERROR utils.BrowserDriver 435 getText - failed to get element's text
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='basic-info']/h1"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//div[@id='basic-info']/h1}
+Session ID: 2e86cc2d40b6cf6f87d201079f841bc4
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir75908_6000, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 17:13:12 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 17:22:48 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 17:23:14 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.05.27 at 17:23:16 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-475f5513-2e86-455b-ba7b-a0ff6ae9b95a
+2017.05.27 at 17:23:18 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:23:19 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-9b58b707-b4c4-4e50-a660-c9788d6aa71e
+2017.05.27 at 17:23:20 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-eacdf319-7def-4059-9046-fc3203c8c3f9
+2017.05.27 at 17:23:21 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 老张牛肉面(新中关购物中心店)
+添加分店
+2017.05.27 at 17:23:21 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:23:59 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:24:00 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-9b58b707-b4c4-4e50-a660-c9788d6aa71e
+2017.05.27 at 17:24:01 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-475f5513-2e86-455b-ba7b-a0ff6ae9b95a
+2017.05.27 at 17:24:01 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-798b3aa8-dcda-45ef-8e0c-7cd492673a14
+2017.05.27 at 17:24:03 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 零贰玖小馆(悠唐购物中心店)
+其它4家分店
+2017.05.27 at 17:24:03 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:24:25 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:24:26 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-9b58b707-b4c4-4e50-a660-c9788d6aa71e
+2017.05.27 at 17:24:27 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-475f5513-2e86-455b-ba7b-a0ff6ae9b95a
+2017.05.27 at 17:24:27 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-eacdf319-7def-4059-9046-fc3203c8c3f9
+2017.05.27 at 17:24:28 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6962d075-13cd-4fb5-b41b-43c69a007ef8
+2017.05.27 at 17:24:29 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 许小树(新中关店)
+添加分店
+2017.05.27 at 17:24:29 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:24:51 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:24:52 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-9b58b707-b4c4-4e50-a660-c9788d6aa71e
+2017.05.27 at 17:24:53 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-475f5513-2e86-455b-ba7b-a0ff6ae9b95a
+2017.05.27 at 17:24:53 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-eacdf319-7def-4059-9046-fc3203c8c3f9
+2017.05.27 at 17:24:54 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-798b3aa8-dcda-45ef-8e0c-7cd492673a14
+2017.05.27 at 17:24:54 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a92bfc4f-d955-4c0f-ac6b-74cc6c530541
+2017.05.27 at 17:24:56 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 许小树(新中关店)
+添加分店
+2017.05.27 at 17:24:56 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:25:18 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:25:19 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-9b58b707-b4c4-4e50-a660-c9788d6aa71e
+2017.05.27 at 17:25:20 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-475f5513-2e86-455b-ba7b-a0ff6ae9b95a
+2017.05.27 at 17:25:21 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-eacdf319-7def-4059-9046-fc3203c8c3f9
+2017.05.27 at 17:25:21 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-798b3aa8-dcda-45ef-8e0c-7cd492673a14
+2017.05.27 at 17:25:22 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6962d075-13cd-4fb5-b41b-43c69a007ef8
+2017.05.27 at 17:25:22 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-283cf606-0350-432e-8b7a-a3de5ce103e7
+2017.05.27 at 17:25:24 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 零贰玖小馆(悠唐购物中心店)
+其它4家分店
+2017.05.27 at 17:25:24 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:25:46 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:25:47 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-9b58b707-b4c4-4e50-a660-c9788d6aa71e
+2017.05.27 at 17:25:48 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-475f5513-2e86-455b-ba7b-a0ff6ae9b95a
+2017.05.27 at 17:25:48 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-eacdf319-7def-4059-9046-fc3203c8c3f9
+2017.05.27 at 17:25:49 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-798b3aa8-dcda-45ef-8e0c-7cd492673a14
+2017.05.27 at 17:25:49 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6962d075-13cd-4fb5-b41b-43c69a007ef8
+2017.05.27 at 17:25:50 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a92bfc4f-d955-4c0f-ac6b-74cc6c530541
+2017.05.27 at 17:25:50 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-eb519773-5d3b-444f-8ee5-4963bb1fe074
+2017.05.27 at 17:25:52 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 老北京柴氏
+其它2家分店
+2017.05.27 at 17:25:52 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:26:14 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:26:15 CST ERROR utils.BrowserDriver 661 clickByIndex - 
+org.openqa.selenium.WebDriverException: unknown error: Element <h4>...</h4> is not clickable at point (654, 959). Other element would receive the click: <div class="txt">...</div>
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 56 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 273b9a404aea60371498cc95f70bcef5
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir97332_4233, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 17:26:15 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-9b58b707-b4c4-4e50-a660-c9788d6aa71e
+2017.05.27 at 17:26:16 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-475f5513-2e86-455b-ba7b-a0ff6ae9b95a
+2017.05.27 at 17:26:16 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-eacdf319-7def-4059-9046-fc3203c8c3f9
+2017.05.27 at 17:26:17 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-798b3aa8-dcda-45ef-8e0c-7cd492673a14
+2017.05.27 at 17:26:17 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6962d075-13cd-4fb5-b41b-43c69a007ef8
+2017.05.27 at 17:26:18 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a92bfc4f-d955-4c0f-ac6b-74cc6c530541
+2017.05.27 at 17:26:18 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-283cf606-0350-432e-8b7a-a3de5ce103e7
+2017.05.27 at 17:26:39 CST ERROR utils.BrowserDriver 435 getText - failed to get element's text
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='basic-info']/h1"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//div[@id='basic-info']/h1}
+Session ID: 273b9a404aea60371498cc95f70bcef5
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir97332_4233, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 17:26:39 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 17:34:07 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 17:34:31 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.05.27 at 17:34:32 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c5374a58-0ec8-4552-a7c3-cf7528182be6
+2017.05.27 at 17:35:04 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:35:05 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5f503b80-ef67-44be-9f70-e6c6f942c8af
+2017.05.27 at 17:35:06 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c485ee9a-7752-460c-aaf7-77107b4875c9
+2017.05.27 at 17:35:08 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 零贰玖小馆(悠唐购物中心店)
+其它4家分店
+2017.05.27 at 17:35:08 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:35:30 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:35:31 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5f503b80-ef67-44be-9f70-e6c6f942c8af
+2017.05.27 at 17:35:31 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c5374a58-0ec8-4552-a7c3-cf7528182be6
+2017.05.27 at 17:35:32 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-412bb960-3a13-4899-bfbb-72da0e4f2c71
+2017.05.27 at 17:35:33 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 许小树(新中关店)
+添加分店
+2017.05.27 at 17:35:33 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:35:55 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:35:57 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5f503b80-ef67-44be-9f70-e6c6f942c8af
+2017.05.27 at 17:35:57 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c5374a58-0ec8-4552-a7c3-cf7528182be6
+2017.05.27 at 17:35:58 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c485ee9a-7752-460c-aaf7-77107b4875c9
+2017.05.27 at 17:35:58 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-aeb01c92-5f9c-4722-bce3-0f27a5b0e716
+2017.05.27 at 17:36:00 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 蜀好麻辣烫小馆(交大店)
+添加分店
+2017.05.27 at 17:36:00 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:36:22 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:36:23 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5f503b80-ef67-44be-9f70-e6c6f942c8af
+2017.05.27 at 17:36:23 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c5374a58-0ec8-4552-a7c3-cf7528182be6
+2017.05.27 at 17:36:24 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c485ee9a-7752-460c-aaf7-77107b4875c9
+2017.05.27 at 17:36:24 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-412bb960-3a13-4899-bfbb-72da0e4f2c71
+2017.05.27 at 17:36:25 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-dcd9ec02-419a-4ffe-9444-f17b25cbfd1a
+2017.05.27 at 17:36:26 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 许小树(新中关店)
+添加分店
+2017.05.27 at 17:36:26 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:36:48 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:36:49 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5f503b80-ef67-44be-9f70-e6c6f942c8af
+2017.05.27 at 17:36:50 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c5374a58-0ec8-4552-a7c3-cf7528182be6
+2017.05.27 at 17:36:50 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c485ee9a-7752-460c-aaf7-77107b4875c9
+2017.05.27 at 17:36:51 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-412bb960-3a13-4899-bfbb-72da0e4f2c71
+2017.05.27 at 17:36:51 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-aeb01c92-5f9c-4722-bce3-0f27a5b0e716
+2017.05.27 at 17:36:52 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-bb22bf58-ba88-4513-ae62-ff72e075844d
+2017.05.27 at 17:36:54 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 老张牛肉面(新中关购物中心店)
+添加分店
+2017.05.27 at 17:36:54 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:37:16 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:37:17 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5f503b80-ef67-44be-9f70-e6c6f942c8af
+2017.05.27 at 17:37:17 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c5374a58-0ec8-4552-a7c3-cf7528182be6
+2017.05.27 at 17:37:18 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c485ee9a-7752-460c-aaf7-77107b4875c9
+2017.05.27 at 17:37:18 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-412bb960-3a13-4899-bfbb-72da0e4f2c71
+2017.05.27 at 17:37:19 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-aeb01c92-5f9c-4722-bce3-0f27a5b0e716
+2017.05.27 at 17:37:19 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-dcd9ec02-419a-4ffe-9444-f17b25cbfd1a
+2017.05.27 at 17:37:20 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-76f85094-7bf2-46a1-884d-63ccf99f104e
+2017.05.27 at 17:37:21 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 龙虾宝宝
+添加分店
+2017.05.27 at 17:37:21 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:37:44 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:37:45 CST ERROR utils.BrowserDriver 661 clickByIndex - 
+org.openqa.selenium.WebDriverException: unknown error: Element <h4>...</h4> is not clickable at point (661, 959). Other element would receive the click: <div class="tag-addr">...</div>
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: b656c8db87180770b919d059fa3e7ab2
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir98976_3164, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 17:37:45 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5f503b80-ef67-44be-9f70-e6c6f942c8af
+2017.05.27 at 17:37:45 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c5374a58-0ec8-4552-a7c3-cf7528182be6
+2017.05.27 at 17:37:46 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-c485ee9a-7752-460c-aaf7-77107b4875c9
+2017.05.27 at 17:37:46 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-412bb960-3a13-4899-bfbb-72da0e4f2c71
+2017.05.27 at 17:37:47 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-aeb01c92-5f9c-4722-bce3-0f27a5b0e716
+2017.05.27 at 17:37:47 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-dcd9ec02-419a-4ffe-9444-f17b25cbfd1a
+2017.05.27 at 17:37:48 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-bb22bf58-ba88-4513-ae62-ff72e075844d
+2017.05.27 at 17:38:08 CST ERROR utils.BrowserDriver 435 getText - failed to get element's text
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='basic-info']/h1"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//div[@id='basic-info']/h1}
+Session ID: b656c8db87180770b919d059fa3e7ab2
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir98976_3164, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 17:38:08 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 17:43:58 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 17:44:24 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.05.27 at 17:44:25 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-d2d5736a-d257-4976-b9cc-43030749180d
+2017.05.27 at 17:44:28 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:44:29 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-7daa6c1f-4639-4ac7-914e-b90e1b3c583b
+2017.05.27 at 17:44:29 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1c1a832c-9793-44cf-bfae-cd3ce71769e3
+2017.05.27 at 17:44:31 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 老张牛肉面(新中关购物中心店)
+添加分店
+2017.05.27 at 17:44:31 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:45:09 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:45:10 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-7daa6c1f-4639-4ac7-914e-b90e1b3c583b
+2017.05.27 at 17:45:11 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-d2d5736a-d257-4976-b9cc-43030749180d
+2017.05.27 at 17:45:11 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f3a31708-9e94-4e67-902d-27ed3cd07dca
+2017.05.27 at 17:45:13 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 许小树(新中关店)
+添加分店
+2017.05.27 at 17:45:13 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:45:35 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:45:36 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-7daa6c1f-4639-4ac7-914e-b90e1b3c583b
+2017.05.27 at 17:45:36 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-d2d5736a-d257-4976-b9cc-43030749180d
+2017.05.27 at 17:45:37 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1c1a832c-9793-44cf-bfae-cd3ce71769e3
+2017.05.27 at 17:45:37 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-36d71524-5400-48ad-8054-bd3c053b13fc
+2017.05.27 at 17:45:39 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 老张牛肉面(新中关购物中心店)
+添加分店
+2017.05.27 at 17:45:39 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:46:01 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:46:02 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-7daa6c1f-4639-4ac7-914e-b90e1b3c583b
+2017.05.27 at 17:46:03 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-d2d5736a-d257-4976-b9cc-43030749180d
+2017.05.27 at 17:46:03 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1c1a832c-9793-44cf-bfae-cd3ce71769e3
+2017.05.27 at 17:46:04 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f3a31708-9e94-4e67-902d-27ed3cd07dca
+2017.05.27 at 17:46:04 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6aaf40f9-9574-4ecb-87fe-3c101deda702
+2017.05.27 at 17:46:06 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 蜀好麻辣烫小馆(交大店)
+添加分店
+2017.05.27 at 17:46:06 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:46:25 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:46:27 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-7daa6c1f-4639-4ac7-914e-b90e1b3c583b
+2017.05.27 at 17:46:27 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-d2d5736a-d257-4976-b9cc-43030749180d
+2017.05.27 at 17:46:28 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1c1a832c-9793-44cf-bfae-cd3ce71769e3
+2017.05.27 at 17:46:28 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f3a31708-9e94-4e67-902d-27ed3cd07dca
+2017.05.27 at 17:46:29 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-36d71524-5400-48ad-8054-bd3c053b13fc
+2017.05.27 at 17:46:29 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a4f59921-0e4c-4e61-9c48-b0cf2823cbed
+2017.05.27 at 17:46:31 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 脑馋粉儿(三里屯店)
+添加分店
+2017.05.27 at 17:46:31 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:46:53 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:46:54 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-7daa6c1f-4639-4ac7-914e-b90e1b3c583b
+2017.05.27 at 17:46:54 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-d2d5736a-d257-4976-b9cc-43030749180d
+2017.05.27 at 17:46:55 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1c1a832c-9793-44cf-bfae-cd3ce71769e3
+2017.05.27 at 17:46:55 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f3a31708-9e94-4e67-902d-27ed3cd07dca
+2017.05.27 at 17:46:56 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-36d71524-5400-48ad-8054-bd3c053b13fc
+2017.05.27 at 17:46:56 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6aaf40f9-9574-4ecb-87fe-3c101deda702
+2017.05.27 at 17:46:57 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6e446d3c-943f-46f9-967c-a00110fc6551
+2017.05.27 at 17:46:58 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 老北京柴氏
+其它2家分店
+2017.05.27 at 17:46:58 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:47:21 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:47:22 CST ERROR utils.BrowserDriver 661 clickByIndex - 
+org.openqa.selenium.WebDriverException: unknown error: Element <h4>...</h4> is not clickable at point (654, 959). Other element would receive the click: <div class="txt">...</div>
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: e5406e620195b791e2dc97d85cd468c7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir97744_30419, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 17:47:22 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-7daa6c1f-4639-4ac7-914e-b90e1b3c583b
+2017.05.27 at 17:47:22 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-d2d5736a-d257-4976-b9cc-43030749180d
+2017.05.27 at 17:47:23 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1c1a832c-9793-44cf-bfae-cd3ce71769e3
+2017.05.27 at 17:47:23 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f3a31708-9e94-4e67-902d-27ed3cd07dca
+2017.05.27 at 17:47:24 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-36d71524-5400-48ad-8054-bd3c053b13fc
+2017.05.27 at 17:47:24 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6aaf40f9-9574-4ecb-87fe-3c101deda702
+2017.05.27 at 17:47:25 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a4f59921-0e4c-4e61-9c48-b0cf2823cbed
+2017.05.27 at 17:47:45 CST ERROR utils.BrowserDriver 435 getText - failed to get element's text
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='basic-info']/h1"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//div[@id='basic-info']/h1}
+Session ID: e5406e620195b791e2dc97d85cd468c7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir97744_30419, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 17:47:45 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 17:57:35 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 17:58:00 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.05.27 at 17:58:02 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-84b08720-a21b-420f-8c0f-73f3ac71fbf3
+2017.05.27 at 17:58:06 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:58:07 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a848d869-8b4f-42fb-9289-f7dd4f9240f6
+2017.05.27 at 17:58:07 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f297e58d-a385-463e-9f66-9d4d4a534f1b
+2017.05.27 at 17:58:09 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 许小树(新中关店)
+添加分店
+2017.05.27 at 17:58:09 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:58:47 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:58:48 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a848d869-8b4f-42fb-9289-f7dd4f9240f6
+2017.05.27 at 17:58:48 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-84b08720-a21b-420f-8c0f-73f3ac71fbf3
+2017.05.27 at 17:58:49 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-8d2f1cd6-e7d5-4ae0-9e1f-8e2145225553
+2017.05.27 at 17:58:51 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 老张牛肉面(新中关购物中心店)
+添加分店
+2017.05.27 at 17:58:51 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:59:14 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:59:15 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a848d869-8b4f-42fb-9289-f7dd4f9240f6
+2017.05.27 at 17:59:16 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-84b08720-a21b-420f-8c0f-73f3ac71fbf3
+2017.05.27 at 17:59:16 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f297e58d-a385-463e-9f66-9d4d4a534f1b
+2017.05.27 at 17:59:17 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-fa826af3-3e59-4b5d-9223-6edfc9604db1
+2017.05.27 at 17:59:18 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 零贰玖小馆(悠唐购物中心店)
+其它4家分店
+2017.05.27 at 17:59:18 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 17:59:42 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 17:59:43 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a848d869-8b4f-42fb-9289-f7dd4f9240f6
+2017.05.27 at 17:59:43 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-84b08720-a21b-420f-8c0f-73f3ac71fbf3
+2017.05.27 at 17:59:44 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f297e58d-a385-463e-9f66-9d4d4a534f1b
+2017.05.27 at 17:59:44 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-8d2f1cd6-e7d5-4ae0-9e1f-8e2145225553
+2017.05.27 at 17:59:45 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-868044cd-c90c-40a0-bcfa-1b1303518b94
+2017.05.27 at 17:59:47 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 零贰玖小馆(悠唐购物中心店)
+其它4家分店
+2017.05.27 at 17:59:47 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:00:10 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:00:11 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a848d869-8b4f-42fb-9289-f7dd4f9240f6
+2017.05.27 at 18:00:12 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-84b08720-a21b-420f-8c0f-73f3ac71fbf3
+2017.05.27 at 18:00:12 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f297e58d-a385-463e-9f66-9d4d4a534f1b
+2017.05.27 at 18:00:13 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-8d2f1cd6-e7d5-4ae0-9e1f-8e2145225553
+2017.05.27 at 18:00:13 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-fa826af3-3e59-4b5d-9223-6edfc9604db1
+2017.05.27 at 18:00:14 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-2e621b63-d74c-4f64-a9b6-238586e6cef3
+2017.05.27 at 18:00:15 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 零贰玖小馆(悠唐购物中心店)
+其它4家分店
+2017.05.27 at 18:00:15 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:00:39 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:00:40 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a848d869-8b4f-42fb-9289-f7dd4f9240f6
+2017.05.27 at 18:00:40 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-84b08720-a21b-420f-8c0f-73f3ac71fbf3
+2017.05.27 at 18:00:41 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f297e58d-a385-463e-9f66-9d4d4a534f1b
+2017.05.27 at 18:00:41 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-8d2f1cd6-e7d5-4ae0-9e1f-8e2145225553
+2017.05.27 at 18:00:42 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-fa826af3-3e59-4b5d-9223-6edfc9604db1
+2017.05.27 at 18:00:42 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-868044cd-c90c-40a0-bcfa-1b1303518b94
+2017.05.27 at 18:00:43 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-ed188b26-5e67-478f-be79-4ed27ecd25fc
+2017.05.27 at 18:00:45 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 金鼎轩南北点心专门店(王府井店)
+其它1家分店
+2017.05.27 at 18:00:45 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:01:08 CST INFO  utils.BrowserDriver 652 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:01:09 CST ERROR utils.BrowserDriver 661 clickByIndex - 
+org.openqa.selenium.WebDriverException: unknown error: Element <h4>...</h4> is not clickable at point (661, 959). Other element would receive the click: <div class="tag-addr">...</div>
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 58 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: cdb0ff50ff29739db42935d3e8c74ca3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir100216_2005, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 18:01:09 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a848d869-8b4f-42fb-9289-f7dd4f9240f6
+2017.05.27 at 18:01:10 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-84b08720-a21b-420f-8c0f-73f3ac71fbf3
+2017.05.27 at 18:01:10 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f297e58d-a385-463e-9f66-9d4d4a534f1b
+2017.05.27 at 18:01:11 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-8d2f1cd6-e7d5-4ae0-9e1f-8e2145225553
+2017.05.27 at 18:01:11 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-fa826af3-3e59-4b5d-9223-6edfc9604db1
+2017.05.27 at 18:01:12 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-868044cd-c90c-40a0-bcfa-1b1303518b94
+2017.05.27 at 18:01:12 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-2e621b63-d74c-4f64-a9b6-238586e6cef3
+2017.05.27 at 18:01:33 CST ERROR utils.BrowserDriver 435 getText - failed to get element's text
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='basic-info']/h1"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//div[@id='basic-info']/h1}
+Session ID: cdb0ff50ff29739db42935d3e8c74ca3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir100216_2005, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 18:01:33 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 18:09:55 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 18:10:21 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.05.27 at 18:10:22 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1189f3a3-c504-424e-b712-cf5f0c1f2b7f
+2017.05.27 at 18:10:27 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:10:28 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1fd64256-4e3c-4d25-a0d2-6342021cb4a6
+2017.05.27 at 18:10:29 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6ed54ba1-08d2-4e04-81e1-5fb939b7874a
+2017.05.27 at 18:10:30 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 蜀好麻辣烫小馆(交大店)
+添加分店
+2017.05.27 at 18:10:30 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:11:08 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:11:09 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1fd64256-4e3c-4d25-a0d2-6342021cb4a6
+2017.05.27 at 18:11:10 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1189f3a3-c504-424e-b712-cf5f0c1f2b7f
+2017.05.27 at 18:11:10 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-36c8994e-b096-4145-80a9-d60584a70529
+2017.05.27 at 18:11:12 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 蜀好麻辣烫小馆(交大店)
+添加分店
+2017.05.27 at 18:11:12 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:11:36 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:11:37 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1fd64256-4e3c-4d25-a0d2-6342021cb4a6
+2017.05.27 at 18:11:38 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1189f3a3-c504-424e-b712-cf5f0c1f2b7f
+2017.05.27 at 18:11:38 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6ed54ba1-08d2-4e04-81e1-5fb939b7874a
+2017.05.27 at 18:11:39 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6e337675-a04e-4967-88e2-09c964f039c8
+2017.05.27 at 18:11:40 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 蜀好麻辣烫小馆(交大店)
+添加分店
+2017.05.27 at 18:11:40 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:12:05 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:12:06 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1fd64256-4e3c-4d25-a0d2-6342021cb4a6
+2017.05.27 at 18:12:07 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1189f3a3-c504-424e-b712-cf5f0c1f2b7f
+2017.05.27 at 18:12:07 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6ed54ba1-08d2-4e04-81e1-5fb939b7874a
+2017.05.27 at 18:12:08 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-36c8994e-b096-4145-80a9-d60584a70529
+2017.05.27 at 18:12:08 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5ab8e59d-f897-41ec-bc05-44ed3fa8e315
+2017.05.27 at 18:12:10 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 零贰玖小馆(悠唐购物中心店)
+其它4家分店
+2017.05.27 at 18:12:10 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:12:35 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:12:36 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1fd64256-4e3c-4d25-a0d2-6342021cb4a6
+2017.05.27 at 18:12:36 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1189f3a3-c504-424e-b712-cf5f0c1f2b7f
+2017.05.27 at 18:12:37 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6ed54ba1-08d2-4e04-81e1-5fb939b7874a
+2017.05.27 at 18:12:37 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-36c8994e-b096-4145-80a9-d60584a70529
+2017.05.27 at 18:12:38 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6e337675-a04e-4967-88e2-09c964f039c8
+2017.05.27 at 18:12:38 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-601575d4-5817-4667-91d9-7014aeddfb30
+2017.05.27 at 18:12:40 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 零贰玖小馆(悠唐购物中心店)
+其它4家分店
+2017.05.27 at 18:12:40 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:13:05 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:13:06 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1fd64256-4e3c-4d25-a0d2-6342021cb4a6
+2017.05.27 at 18:13:06 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1189f3a3-c504-424e-b712-cf5f0c1f2b7f
+2017.05.27 at 18:13:07 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6ed54ba1-08d2-4e04-81e1-5fb939b7874a
+2017.05.27 at 18:13:07 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-36c8994e-b096-4145-80a9-d60584a70529
+2017.05.27 at 18:13:08 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6e337675-a04e-4967-88e2-09c964f039c8
+2017.05.27 at 18:13:08 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5ab8e59d-f897-41ec-bc05-44ed3fa8e315
+2017.05.27 at 18:13:09 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-633f0619-48ca-48eb-b6dd-985b0ee99988
+2017.05.27 at 18:13:10 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 菊儿人家
+添加分店
+2017.05.27 at 18:13:10 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:13:35 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:13:36 CST ERROR utils.BrowserDriver 663 clickByIndex - 
+org.openqa.selenium.WebDriverException: unknown error: Element <h4>...</h4> is not clickable at point (661, 959). Other element would receive the click: <div class="tag-addr">...</div>
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: c792287f18306d05381dae693d4f1f75
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir101632_23227, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 18:13:36 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.05.27 at 18:15:08 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.05.27 at 18:15:33 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.05.27 at 18:15:35 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a7fbf295-c34a-4592-a43b-0e73a15ea02f
+2017.05.27 at 18:15:40 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:15:41 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1b0abf91-67ff-4aee-8fc2-b03ccdaec8ca
+2017.05.27 at 18:15:41 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f6dfbec2-e062-4df7-b9cb-814925da713d
+2017.05.27 at 18:15:43 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 许小树(新中关店)
+添加分店
+2017.05.27 at 18:15:43 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:16:21 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:16:22 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1b0abf91-67ff-4aee-8fc2-b03ccdaec8ca
+2017.05.27 at 18:16:23 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a7fbf295-c34a-4592-a43b-0e73a15ea02f
+2017.05.27 at 18:16:23 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-3b81ae13-cfe3-44c0-a769-c4ed17dcbfcd
+2017.05.27 at 18:16:25 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 零贰玖小馆(悠唐购物中心店)
+其它4家分店
+2017.05.27 at 18:16:25 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:16:50 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:16:51 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1b0abf91-67ff-4aee-8fc2-b03ccdaec8ca
+2017.05.27 at 18:16:51 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a7fbf295-c34a-4592-a43b-0e73a15ea02f
+2017.05.27 at 18:16:52 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f6dfbec2-e062-4df7-b9cb-814925da713d
+2017.05.27 at 18:16:52 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6c1ee40d-38e1-4fda-8a78-d23d016e92f9
+2017.05.27 at 18:16:54 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 许小树(新中关店)
+添加分店
+2017.05.27 at 18:16:54 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:17:19 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:17:20 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1b0abf91-67ff-4aee-8fc2-b03ccdaec8ca
+2017.05.27 at 18:17:20 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a7fbf295-c34a-4592-a43b-0e73a15ea02f
+2017.05.27 at 18:17:21 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f6dfbec2-e062-4df7-b9cb-814925da713d
+2017.05.27 at 18:17:21 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-3b81ae13-cfe3-44c0-a769-c4ed17dcbfcd
+2017.05.27 at 18:17:22 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5b2052bd-89b5-453c-b2c0-80f0420f6c36
+2017.05.27 at 18:17:23 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 零贰玖小馆(悠唐购物中心店)
+其它4家分店
+2017.05.27 at 18:17:23 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:17:48 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:17:49 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1b0abf91-67ff-4aee-8fc2-b03ccdaec8ca
+2017.05.27 at 18:17:50 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a7fbf295-c34a-4592-a43b-0e73a15ea02f
+2017.05.27 at 18:17:50 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f6dfbec2-e062-4df7-b9cb-814925da713d
+2017.05.27 at 18:17:51 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-3b81ae13-cfe3-44c0-a769-c4ed17dcbfcd
+2017.05.27 at 18:17:51 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6c1ee40d-38e1-4fda-8a78-d23d016e92f9
+2017.05.27 at 18:17:52 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-ad2325d3-421b-453a-996e-b8c5dd0f5240
+2017.05.27 at 18:17:53 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 零贰玖小馆(悠唐购物中心店)
+其它4家分店
+2017.05.27 at 18:17:53 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:18:18 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:18:19 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-1b0abf91-67ff-4aee-8fc2-b03ccdaec8ca
+2017.05.27 at 18:18:19 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-a7fbf295-c34a-4592-a43b-0e73a15ea02f
+2017.05.27 at 18:18:20 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-f6dfbec2-e062-4df7-b9cb-814925da713d
+2017.05.27 at 18:18:21 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-3b81ae13-cfe3-44c0-a769-c4ed17dcbfcd
+2017.05.27 at 18:18:21 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-6c1ee40d-38e1-4fda-8a78-d23d016e92f9
+2017.05.27 at 18:18:22 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-5b2052bd-89b5-453c-b2c0-80f0420f6c36
+2017.05.27 at 18:18:22 CST INFO  utils.BrowserDriver 339 changeWindow - Change Window:CDwindow-675c37e3-429f-4582-95da-3c5e4dc29820
+2017.05.27 at 18:18:24 CST DEBUG utils.BrowserDriver 433 getText - get element's text: 潮佰岁潮汕砂锅粥(西四店)
+添加分店
+2017.05.27 at 18:18:24 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/search/category/2/10/g112
+2017.05.27 at 18:18:48 CST INFO  utils.BrowserDriver 653 clickByIndex - WebElement: //div[@id='shop-all-list']/ul/li/div[2]/div/a/h4
+2017.05.27 at 18:18:49 CST ERROR utils.BrowserDriver 663 clickByIndex - 
+org.openqa.selenium.WebDriverException: unknown error: Element <h4>...</h4> is not clickable at point (661, 959). Other element would receive the click: <div class="tag-addr">...</div>
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 89f26fc061bec7cef301185999d6dcca
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir103680_10794, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.05.27 at 18:18:49 CST INFO  utils.BrowserDriver 500 close -  Closing Driver
+2017.06.14 at 18:07:39 CST INFO  utils.BrowserDriver 55 open - open url: https://www.dianping.com/beijing
+2017.06.14 at 18:08:06 CST INFO  utils.BrowserDriver 630 clickByText - Page's WebElement: 小吃快餐
+2017.06.14 at 18:08:50 CST ERROR utils.BrowserDriver 374 getElement - Can not getElement <//a[.='下一页']>
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='下一页']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'sl-PC', ip: '169.254.212.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//a[.='下一页']}
+Session ID: 15e6ddacf2a0a93f8eb615168c48fdaf
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sl\AppData\Local\Temp\scoped_dir20296_12119, chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=55.0.2883.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+2017.06.14 at 18:08:50 CST INFO  utils.BrowserDriver 500 close -  Closing Driver

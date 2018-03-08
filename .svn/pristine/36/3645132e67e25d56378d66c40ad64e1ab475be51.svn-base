@@ -1,0 +1,45 @@
+package testcase;
+
+
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+import page.Waiter1;
+import utils.ScreenShot;
+
+
+/**
+ * Created by sl on 2017/5/24.
+ *
+ */
+
+public class MyStepdefs extends CucumberRunner {
+
+    @Given("^打开门店地址 \"([^\"]*)\"$")
+    public void 打开门店地址(String arg0) throws Throwable {
+        driver.open(arg0);
+
+    }
+
+    @When("^输入 \"([^\"]*)\" 和 \"([^\"]*)\"$")
+    public void 输入用户名和密码(String user, String pwd) {
+        driver.type(Waiter1.userNameX,user);
+        driver.type(Waiter1.passWordX,pwd);
+    }
+    @Then("^点击登录按钮$")
+    public void 点击登录按钮() throws Throwable {
+        driver.click(Waiter1.logIn_Ok);
+
+    }
+
+    @After
+    public void takeScreenShot(Scenario scenario) {
+        ScreenShot.takeScreenShot(scenario);
+    }
+
+
+
+}

@@ -1,0 +1,674 @@
+package utils;
+
+import java.io.File;
+import java.lang.reflect.Field;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import com.webdriver.exception.StepException;
+import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import page.Waiter1;
+
+
+
+
+public class BrowserDriver  {
+	
+	public static ChromeDriver dr = null;
+	public static Logger log =  LogManager.getLogger(BrowserDriver.class.getName());
+	private final String path = "D:/Chrome/Application/Chrome.exe";
+	Field[] methods = Waiter1.class.getFields();
+	
+	public BrowserDriver(String baseUrl) {
+		browser();
+        try {
+            this.open(baseUrl);
+        } catch (StepException e) {
+            e.printStackTrace();
+        }
+
+    }
+	public BrowserDriver() {
+	
+	}
+
+	
+	/**
+	 *  打开指定的Url地址
+	 *  @param url 网址
+	 * */
+	public void open(String url) throws StepException {
+		try {
+			log.info("open url: "+url);
+			dr.get(url);
+		} catch (Exception e) {
+			log.error("open <"+url+"> error"+"\r\n"+e);
+			throw new StepException("open <"+url+"> error"+"\r\n"+e);
+		}
+	}
+	
+	/**
+	 *  初始化浏览器
+	 * 
+	 * */
+	public void browser() {
+		System.setProperty("webdriver.chrome.driver", "./libs/chromedriver.exe");
+		ChromeOptions options = new ChromeOptions();
+		options.setBinary(path);
+		dr = new ChromeDriver(options);
+		dr.manage().window().maximize();
+		dr.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
+	}
+	
+	/**
+	 *  勾选checkBox
+	 *  @param eleName Xpath 元素 
+	 * 
+	 * */
+	public void check(String eleName) throws StepException {
+		log.info("**Check**"+eleName);
+		WebElement ele = null;
+		try {
+			ele = dr.findElementByXPath(eleName);
+		} catch (Exception e) {
+			log.error("The element is not find!" +"\r\n" + e);
+            throw new StepException("The element is not find!" +"\r\n" + e);
+		}
+		if (!ele.isSelected()) {
+			ele.click();
+		} else {
+			log.error(eleName + "had been selected!");
+            throw new StepException(eleName + " had been selected!");
+		}
+	}
+	
+	/**
+	 *  关闭浏览器当前的tab
+	 * 
+	 * 
+	 * */
+	public void closeTab() throws StepException {
+        log.info("closeTab");
+        try {
+            new Actions(dr).keyDown(Keys.CONTROL).sendKeys("w").perform();
+        }
+        catch (Exception e) {
+            log.error(e);
+            throw new StepException("closeTab"+"\r\n" + e);
+        }
+
+	}
+	
+	/**
+	 * 切换到默认的Frame
+	 */
+	public void switchToDefaultFrame() throws StepException {
+		try {
+			log.info("切换到默认的Frame");
+			dr.switchTo().defaultContent();
+		} catch (Exception e) {
+			log.error(e);
+            throw new StepException("switchToDefaultFrame"+"\r\n" + e);
+		}
+	}
+	
+	/**
+	 * 设置页面等待的时间
+	 */
+	public void waitTime(long time) throws StepException {
+		try {
+			Thread.sleep(time);
+		} catch (InterruptedException e) {
+			log.error("Wait time:" +"\r\n"+ e);
+            throw new StepException("Wait time"+"\r\n" + e);
+		}
+	}
+
+	/**
+	 * 点击页面上的元素
+	 * @param elementName xpath元素
+	 * */
+	public void click(String elementName) throws StepException {
+		for (Field f : methods) {
+			try {
+				if(f.get(methods).equals(elementName)) {log.info("    " + f.getName());break;}
+			} catch (IllegalArgumentException | IllegalAccessException e) {
+				log.error("不能找到元素对应的变量"+e);
+			}	
+		}
+		waitTime(1000);
+		try {
+			click("xpath", elementName);
+		} catch (Exception e) {
+			log.error("Xpath<"+elementName + "> not find!!" + "\r\n" + e);
+			throw new StepException("Xpath<"+elementName + "> not find!!" + "\r\n" + e);
+		}
+	}
+
+	/**
+     * 点击页面元素
+     * @param  method By方法
+     * @param  elementName 元素的xpath
+     *
+     * */
+	public  void click(String method,String elementName) throws StepException {
+	    try{
+            switch (method) {
+                case "id":
+                    dr.findElement(By.id(elementName)).click();;
+                    break;
+                case "xpath":
+                    dr.findElement(By.xpath(elementName)).click();;
+                    break;
+                case "cssSelector":
+                    dr.findElement(By.cssSelector(elementName)).click();;
+                    break;
+                default:
+                    throw new StepException("The method is not supported");
+            }
+        }
+        catch (Exception e) {
+            throw new StepException(e);
+        }
+
+		
+	}
+	
+
+	/**
+     * 点击页面元素
+     * @param  elementName 元素的xpath
+     *
+     * */
+	public void click2(String elementName) throws StepException {
+		waitTime(800);
+		try {
+			new Actions(dr).moveToElement(dr.findElementByXPath(elementName)).click().perform();
+		} catch (Exception e) {
+			log.error(elementName + "not find!!" + "\r\n" + e);
+            throw new StepException("Xpath<"+elementName + "> not find!!" + "\r\n" + e);
+		}
+	}
+	
+	/**
+	 *  延时点击，默认最大等待15s点击页面上的元素
+     *  @param  element 元素的xpath
+	 * 
+	 * */
+	public void clickAndWait(String element) throws StepException {
+		if (waitForElementClick(element,15)) {
+			try {
+				dr.findElementByXPath(element).click();
+			} catch (Exception e) {
+				log.error(element + "not find!!" + "\r\n" + e);
+                throw new StepException("Xpath<"+element + "> not find!!" + "\r\n" + e);
+			}
+		} else {
+			log.error("The element is not visible or not load!");
+            throw new StepException("The element is not visible or not load!");
+		}
+	}
+	
+	/** 
+	  * 判断元素在指定时间是否可以点击
+	  * @param element 元素
+	  * @param seconds 指定秒数 
+	  * @return 出现返回true 否则返回false 
+	  */  
+	 private boolean waitForElementClick(String element, int seconds) {
+	     try {  
+	         new WebDriverWait(dr, seconds).until(ExpectedConditions.elementToBeClickable(By.xpath(element)));  
+	         //new WebDriverWait(dr, seconds).until(ExpectedConditions.elementToBeClickable(By.xpath(element)));
+	         return true;  
+	     } catch (Exception e) { 
+	    	 log.error("we cannot locate the element in "+seconds+" seconds!" + "\r\n" +e);
+	         return false;  
+	     }  
+	 }  
+	
+	/**
+	 * 输入数据到页面上的元素
+	 * @param elementName xpath元素
+	 * @param text 要输入的文本
+	 * */
+	public void type(String elementName,String text) throws StepException {
+		try {
+			 for (Field f : methods) {
+					if(f.get(methods).equals(elementName)) {log.info("    " + f.getName()+ "  =  " + text);break;}
+				}
+			 dr.findElementByXPath(elementName).clear();
+			 dr.findElementByXPath(elementName).sendKeys(text);
+		} catch (Exception e) {
+			log.error("type:"+text+"\r\n "+e);
+			throw new StepException("type:"+text+"\r\n"+e);
+		}
+	}
+	
+	/**
+	 * 清除输入框里面的内容
+	 * @param elementName xpath元素集合
+	 * */
+	public void clearText(String elementName[]) throws StepException {
+		for (String str : elementName) {
+			try {
+				for (Field f : methods) {
+					if(f.get(methods).equals(elementName)) {log.info("    " + f.getName());break;}
+				}
+				dr.findElementByXPath(str).clear();
+			} catch (Exception e) {
+				log.error("Error:-->Clear: "+e);
+                throw new StepException("Error:-->Clear: "+"\r\n"+e);
+			}
+		}
+	}
+	
+	/**
+	 * 在页面上打开一个新的tab
+	 * @param url 网址
+	 * */
+	public void openTab(String url) throws StepException {
+		log.debug("Open a Tab with a Url:" + url );
+		try {
+			Actions action = new Actions(dr);
+			action.sendKeys(Keys.CONTROL+"t").perform();
+			dr.get(url);
+			
+		} catch (Exception e) {
+			log.error("打开新的tab错误："+"\r\n"+e);
+            throw new StepException("打开新的tab错误："+"\r\n"+e);
+		}
+	}
+	
+	/**
+	 *  根据xpath元素改变页面Frame
+	 *  @param elementName xpath元素
+	 * */
+	public void changeFrame(String elementName) throws StepException {
+		try {
+			for (Field f : methods) {
+				if (f.get(methods).equals(elementName)) {log.info("    " + f.getName());break;}
+			}
+			dr.switchTo().frame(dr.findElementByXPath(elementName));
+		} catch (Exception e) {
+			log.error("Not find <" +elementName+ ">\r\n" + e);
+            throw new StepException("Not find <" +elementName+ ">\r\n" + e);
+		}
+	}
+
+    /**
+     * 截图并保存到默认路径
+     */
+    public void capture()  {
+        File f = new File("d://logs");
+        if (!f.exists()) {
+            try {
+                f.mkdirs();
+            } catch (Exception e) {
+                log.error("D盘不存在"+"\r\n"+e);
+            }
+        }
+        f = dr.getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(f, new File(
+                    "d:\\logs\\screenshot-" + new SimpleDateFormat("hh-mm-ss").format(new Date()) + ".png"));
+        } catch (Exception e) {
+            log.error("capture failed!!!!"+e);
+        }
+    }
+	
+	/**
+	 * 选取原来的句柄，回到原来页面 
+	 * @param window 窗口ID
+	 * */
+	public void changeWindow(String window) throws StepException {
+		try {
+			log.info("Change Window:"+window);
+			this.waitTime(500);
+			dr.switchTo().window(window);
+		} catch (Exception e) {
+			log.error("Change Window:"+"\r\n"+e);
+            throw new StepException("Change Window:"+"\r\n"+e);
+
+		}
+	
+	}
+	
+	/**
+	 * 点击弹出框的确定按钮 
+	 */
+	public void alertSubmit() throws StepException {
+		log.info("Alert Submit");
+		this.waitTime(2000);
+		try {
+			dr.switchTo().alert().accept();
+		} catch (Exception e) {
+			log.info("Alert not Find: "+"\r\n"+e);
+            throw new StepException("Alert not Find: "+"\r\n"+e);
+		}
+	}
+	
+	/**
+	 * 获取xpath的元素对象
+	 * @param eleName xpath元素
+	 * */
+	public WebElement getElement(String eleName) throws Exception {
+        WebElement wb = null;
+	    try{
+             wb = dr.findElementByXPath(eleName);
+        }
+        catch (Exception e) {
+            log.error("Can not getElement <"+eleName+">\r\n"+e);
+            throw new StepException("Can not getElement <"+eleName+">\r\n"+e);
+        }
+
+		return wb;
+	}
+	
+	/**
+	 * 获取当前页面句柄
+	 * */
+//	public String getWindowHandle() {
+//		return dr.getWindowHandle();
+//	}
+	
+	/**
+	 * 切换到默认的Frame
+	 */
+	public void DefaultFrame() throws StepException {
+		try {
+			log.debug("切换到默认的Frame");
+			dr.switchTo().defaultContent();
+		} catch (Exception e) {
+			log.error(e);
+            throw new StepException("Can not switch frame: "+"\r\n"+e);
+		}
+	}
+	/**
+	 * 转到对应的页面
+	 * */
+	public void navigateToPage(String url) throws StepException {
+		log.debug("转到页面："+url);
+		try {
+			dr.navigate().to(url);
+		} catch (Exception e) {
+			log.error("转到页面失败："+e);
+            throw new StepException("Cannot navigate to Page <"+url+">\r\n"+e);
+		}
+	}
+	
+	/**
+	 * 刷新页面
+	 * */
+	public void refreshPage() throws StepException {
+		try {
+			dr.navigate().refresh();
+		} catch (Exception e) {
+			log.error("刷新页面失败："+e);
+            throw new StepException("Fail to refresh page!"+e);
+		}
+	}
+	
+	/**
+	 * 获取页面元素的文本
+	 * 
+	 */
+	public String getText(String element) throws StepException {
+		String tmp = "";
+		 try {
+			tmp = dr.findElementByXPath(element).getText();
+			log.debug("get element's text: "+tmp);
+		} catch (Exception e) {
+			log.error("failed to get element's text"+"\r\n"+e);
+             throw new StepException("failed to get element's text"+"\r\n"+e);
+		}
+		return tmp;
+	}
+	
+	/**
+	 * 点击页面上对应文本的下拉选择框
+	 * @param eleName 页面上下拉框的xpath元素
+	 * @param text 下拉框对应的文本
+	 * 
+	 * */
+	
+	public void select(String eleName,String text) throws StepException {
+		log.info("Select :" + text);
+		try {
+			Select s = new Select(dr.findElement(By.xpath(eleName)));
+			s.selectByVisibleText(text);
+		} catch (Exception e) {
+			log.error("Select <" + eleName+">\r\n"+e);
+            throw new StepException("Select <" + eleName+">\r\n"+e);
+		}
+		
+	}
+	
+	/**
+	 * 点击页面上对应文本的下拉选择框
+	 * @param eleName 页面上下拉框的xpath元素
+	 * @param index 下拉框对应的文本的序号
+	 * 
+	 * */
+	
+	public void select(String eleName,int index) throws StepException {
+		log.info("Select :" + index);
+		try {
+			Select s = new Select(dr.findElement(By.xpath(eleName)));
+			s.selectByIndex(index);
+		} catch (Exception e) {
+			log.error("Select :" + index+"\r\n"+e);
+            throw new StepException("Select <" + eleName+">\r\n"+e);
+		}
+		
+	}
+	
+	/**
+	 *  返回到上一页
+	 * 
+	 * */
+	public void backToPrePage() throws StepException {
+	    try {
+            dr.navigate().back();
+        }
+        catch (Exception e) {
+	        log.error(e);
+            throw new StepException(e);
+        }
+
+	
+	}
+	
+	/**
+	 * 
+	 *  关闭浏览器
+	 */
+	public void close() throws StepException {
+		log.info(" Closing Driver");
+		try {
+			dr.close();
+		} catch (Exception e) {
+			log.error("Close:"+e);
+            throw new StepException(e);
+		}
+	}
+	
+	/**
+	 * 对时间控件赋值
+	 * 
+	 * */
+	public void enableTime(String startId, String endId, String startTime, String endTime) throws Exception {
+		
+		String js="document.getElementById('"+startId+"').removeAttribute('readonly');";
+	    ((JavascriptExecutor)dr).executeScript(js);
+	    String js2="document.getElementById('"+endId+"').removeAttribute('readonly');";
+	    ((JavascriptExecutor)dr).executeScript(js2);
+	    this.waitTime(500);
+	    dr.findElementById(startId).sendKeys(startTime);
+	    dr.findElementById(endId).sendKeys(endTime);
+	    
+	}
+	
+	/**
+	 * 获取当前页面句柄
+	 * */
+	public String getWindowHandle(){
+		return dr.getWindowHandle();
+	}
+	
+	/**
+	 * 选取原来的句柄，回到原来页面 
+	 * @param window 窗口ID
+	 * */
+	public void backToPage(String window) throws StepException {
+		try {
+			log.info("Change Window:"+window);
+			this.waitTime(500);
+			dr.switchTo().window(window);
+		} catch (Exception e) {
+			log.error("Change Window <"+window+">\r\n"+e);
+            throw new StepException("Change Window <"+window+">\r\n"+e);
+		}
+	
+	}
+	 
+	 /**
+	  *  获取表的行数
+	  *  @return 行数
+	  * */
+	 public int getRowCount(String rowXpath) throws StepException {
+		    List<WebElement> list = null;
+			try {
+				this.waitTime(1000);
+				list = dr.findElements(By.xpath(rowXpath));
+			} catch (Exception e) {
+				log.error("Cannot get the rowCount"+"\r\n"+e);
+                throw new StepException("Cannot get the rowCount <"+rowXpath+">\r\n"+e);
+			}
+			return list.size();
+			
+		}
+	 
+	
+	 /**
+	  *  获取表指定行列的文本
+	  *  @return 文本
+	  * */
+	 public String getCellText(String trXpath,int rowIdx, int colIdx) throws StepException {
+		 WebElement td = null;
+		try {
+			List<WebElement> rows = dr.findElements(By.xpath(trXpath));
+			WebElement row = rows.get(rowIdx);
+			List<WebElement> col = row.findElements(By.tagName("td"));
+			td = col.get(colIdx);
+		} catch (Exception e) {
+			log.error("Cannot get the text <"+trXpath+">\r\n"+e);
+            throw new StepException("Cannot get the text <"+trXpath+">\r\n"+e);
+		}
+		 return td.getText();
+	 }
+	 
+	 /**
+	  *  获取指定行的文本
+	  * 
+	  * */
+	 public String getRowText(String trXpath,int rowIdx) throws StepException {
+		 HashMap<Integer, WebElement> hMap = null;
+		 try {
+			//this.waitTime(500);
+			List<WebElement> rows = dr.findElements(By.xpath(trXpath));
+			WebElement row = rows.get(rowIdx);
+			hMap = new HashMap<Integer, WebElement>();
+			hMap.put(rowIdx, row);
+		} catch (Exception e) {
+			log.error("Cannot get the text <"+trXpath+">\r\n"+e);
+             throw new StepException("Cannot get the text <"+trXpath+">\r\n"+e);
+		}
+		return hMap.get(rowIdx).getText();
+	 }
+	
+	/**
+	 *  获取指定行的元素对象
+	 *  @param trXpath Xpath
+	 *  @param rowIdx 行序号
+	 *  @return 元素对象
+	 * */ 
+	 private WebElement getEle(String trXpath,int rowIdx) throws StepException {
+		 WebElement row = null;
+		try {
+			//this.waitTime(1000);
+			List<WebElement> rows = dr.findElements(By.xpath(trXpath));
+			row = rows.get(rowIdx);
+		} catch (Exception e) {
+			log.error("Cannot get WebElement <"+trXpath+">\r\n"+e);
+            throw new StepException("Cannot get WebElement <"+trXpath+">\r\n"+e);
+		}
+		 return row;
+	 }
+	
+	 
+
+	 /**
+	  * 点击指定文本的元素
+	  * @param xPath xPath
+	  * @param eleText 元素文本
+	  * */
+	public void clickByText(String xPath, String eleText) throws StepException {
+		log.info("Page's WebElement: " + eleText);
+		int count = this.getRowCount(xPath);
+		try {
+			for (int i = 0; i < count; i++) {
+				if (getEle(xPath, i).getText().equals(eleText)) {
+					getEle(xPath, i).click();
+					break;
+				}
+			}
+		} catch (Exception e) {
+			log.error("\r\n" + e);
+            throw new StepException("Cannot get WebElement <"+xPath+">\r\n"+e);
+		}
+		
+	}
+	
+	/**
+	 *  点击指定序号的元素
+	 *  @param xPath 元素
+	 *  @param index 元素序号
+	 * 
+	 * */
+	public void clickByIndex(String xPath,int index) throws StepException {
+		log.info("WebElement: " + xPath);
+		 int count = this.getRowCount(xPath);
+		 if(index < 0 || index > count) {
+			log.error("The index is error");
+             throw new StepException("The index is error");
+		 }
+		 else {
+			 try {
+				 getEle(xPath,index).click();
+			} catch (Exception e) {
+				log.error("\r\n" + e);
+                 throw new StepException("Cannot get WebElement <"+xPath+">\r\n"+e);
+			}
+		 }
+	}
+	
+
+	
+	
+	
+		
+}

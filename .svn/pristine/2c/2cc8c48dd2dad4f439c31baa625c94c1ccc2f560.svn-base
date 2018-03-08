@@ -1,0 +1,44 @@
+package utils;
+
+import cucumber.api.Scenario;
+import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/**
+ * Created by sl on 2017/5/26.
+ */
+public class ScreenShot {
+    public static Logger logger =  LogManager.getLogger(ScreenShot.class.getName());
+
+
+
+    /**
+     * 自动截图，保存图片到本地以及html结果文件中
+     *
+     * @param scenario
+     */
+    public static void takeScreenShot(Scenario scenario) {
+
+        File f = new File("./captures");
+        if (!f.exists()) {
+            f.mkdirs();
+        }
+        if (scenario.isFailed()) {
+            f = BrowserDriver.dr.getScreenshotAs(OutputType.FILE);
+            try {
+                FileUtils.copyFile(f, new File("./captures/" + new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date()) + ".png"));
+            } catch (IOException e) {
+                logger.info(e);
+                e.printStackTrace();
+            }
+        }
+
+    }
+}

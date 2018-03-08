@@ -1,0 +1,108 @@
+package page;
+
+public class Waiter1 {
+	
+		//<-------------------------------登录信息--------------------------->
+	
+		public static String user = "1";
+		public static String pwd = "acewill";
+		public static String baseUrl = "http://192.168.1.79/terminal/waiter_1";
+		
+		//<-------------------------------登录界面--------------------------->
+		
+		public static String userName = "//*[@id='user']";
+		public static String passWord = "//*[@id='pwd']";
+		public static String userNameX = "//*[@id=\"user\"]";
+		public static String passWordX = "//*[@id=\"pwd\"]";
+		public static String keyBoardTable = "//div[@class='bodyRight_B_left']//button";//键盘表
+		public static String logIn_Change = "//*[@id='login_Change']";//更改登录方式
+		public static String logIn_Change_Input = "//*[@id='zation']";// 授权码的输入框
+		public static String logIn_Ok = "//*[@id='login']/div/div[2]/div[3]/div[2]/button[2]";//确定登录
+		public static String prompt_PopUp = "//*[@id='iknow']";//弹出框的确定按钮
+		
+		
+		//<-------------------------------Frame--------------------------------->
+		
+		public static String peopleFrame = "//*[@id='intopeo_wdlg']";//人数界面
+		public static String checkoutFrame = "//*[@id='checkoutinfo_wfrm']";//结账界面
+		public static String noteFrame = "//*[@id='remarksinfo_wfrm']";//备注界面
+		public static String rejectDishFrame = "//*[@id='retreatinfo_wfrm']";//退菜界面
+		
+		
+		
+		
+		//<----------------------------------登录之后的主界面---------------------------------->
+		
+		public static String dishCategoryTable = "//div[@id='List']/button";//菜品类别表
+		public static String dishTable = "//div[@id='allFoodList']/button"; //某一类别对应的菜品表
+		public static String letterKeyBoardTable = "//div[@id='keyboard']/button";//26个字母对应的表
+		public static String dish_Nextpage = "//div[@class='body_header_btn'][2]/button";//下一页菜品类别
+		public static String dish_Prepage = "//div[@class='body_header_btn'][1]/button";//上一页菜品类别
+		
+		// 页面中间的功能区
+		public static String functionTable = "//div[@class='normal-btn']/button"; //功能表
+		public static String note = "//*[@id='btnRemarks']";//备注
+		public static String allNote = "//*[@id='btnOrderRemark']";//全单备注
+		public static String delDish = "//*[@id='btnDelDish']"; // 删菜
+		public static String giftDish = "//*[@id='btnGiftMeal']";//赠送
+		public static String rejectDish = "//*[@id='btnRetreatFood']";//退菜
+		
+		
+		// 页面左下方的功能区
+		public static String checkOut = "//div[@class='foodlist-bottomdiv']/button[3]/div";//结账
+		public static String checkOut_NotifiOk = "//*[@id='iknow']";//请点菜的确定按钮
+		
+		//<----------------------------------备注界面---------------------------------->
+		
+		public static String freeNote_Put = "//*[@id='freeremark_inp']"; //自由备注输入框
+		public static String note_Ok = "//div[@class='remarkinfo-btnlist']/button[3]";//确定
+		
+		
+		//<----------------------------------赠送理由界面---------------------------------->
+		
+		public static String giftTable = "//*[@id='button_txt']/div/button"; 
+		public static String gift_Ok = "//*[@id='liyou']//button[.='确定']";
+		public static String gift_Cancel = "//*[@id='liyou']//button[.='取消']";
+		
+		
+		
+		//<----------------------------------选择人数的界面---------------------------------->
+		
+		public static String peopleKeyBoardTable = "//div[@class='btn-div']/button"; //数字键盘
+		public static String peopleInput = "//*[@id='peonum_inp']"; //人数输入框 
+		
+		
+		//<----------------------------------订单界面---------------------------------------->
+		
+		public static String checkOut_keyBoardTable = "//div[@class='billbtn-div']/button";//数字键盘
+		public static String checkOut_moneyIpt = "//*[@id='billfont_rmb']";//金额的输入框
+		public static String checkOut_StyleTable = "//div[@class='balanceway-div']/button";//支付方式表
+		public static String checkOut_Close = "//button[.='关闭']";//关闭结账页面
+		public static String checkOut_Iknow = "//*[@id='iknow']";//我知道了
+		public static String discount = "//button[.=' 折扣']";// 折扣
+		
+		//<----------------------------------折扣界面---------------------------------------->
+		
+		public static String discount_Full = "//*[@id='allshout_val']"; //全价折扣
+		public static String discount_common = "//*[@id='normalreb_val']"; //普通打折
+		public static String discount_AllOrder = "//*[@id='allorderreb_val']";//全单打折
+		public static String discount_Member = "//*[@id='welifeMember_val']"; //会员卡
+		public static String discount_Ok = "//div[@class='rebarreinfo-btndiv']/button[1]";
+		public static String discount_Cancel = "//div[@class='rebarreinfo-btndiv']/button[2]";
+		public static String discount_FullTable = "//*[@id='rabateinfo_list']/button";//全单打折子项列表
+		
+		//<----------------------------------退菜界面---------------------------------------->
+		
+		public static String rejectTable = "//*[@id='orderinfo_list']/div";//退菜列表
+		public static String reject_rejectDish = "//*[@id='foodinfo_list']//button[.='退菜']";
+		public static String reject_Allreject = "//button[.='全单退菜']";// 全单退菜
+		public static String reject_ReasonOk = "//*[@id='rejectall_layout']//button[.='确定']";
+		public static String reject_Cancel = "//div[@class='foodinfo-bottom']//button[.='取消']";//取消
+		public static String reject_CheckOut = "//div[@class='foodinfo-bottom']//button[.='结账']";//结账
+		
+		
+		
+		
+		
+
+}
